@@ -1,0 +1,17 @@
+{
+  "batch_size": 8,
+  "image_size": 256,
+  "optimizer": "adamw",
+  "learning_rate": 0.0002,
+  "weight_decay": 0.02,
+  "epochs": 300,
+  "eval_frequency": 1,
+  "validation_split": "val",
+  "loss": {
+    "rgb_weight": 0.001,
+    "lab_weight": 100.0,
+    "lch_weight": 0.1,
+    "ssim_weight": 1.0,
+    "quantization_levels": 32
+  }
+}
