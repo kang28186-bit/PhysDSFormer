@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "PhysDSFormer"
+type: software
+authors:
+  - family-names: Dai
+    given-names: Yuntao
+  - family-names: Shi
+    given-names: Dada
+  - family-names: Liu
+    given-names: Liqiang
+repository-code: "https://github.com/kang28186-bit/PhysDSFormer"

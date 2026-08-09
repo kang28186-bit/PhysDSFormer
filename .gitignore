@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Datasets and generated artifacts
+data/
+datasets/*/
+!datasets/__init__.py
+!datasets/paired.py
+checkpoints/**/*.pth
+logs/
+results/
+runs/
+*.tfevents.*
+
+# Local configuration
+.env
+*.local.json
